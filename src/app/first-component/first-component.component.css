@@ -1,0 +1,13 @@
+p{
+  color: orange;
+}
+:host ::ng-deep span {
+  text-decoration: underline;
+}
+:host ::ng-deep p{
+  border: 10px solid red;
+  display: block;
+}
+div :host p{
+  background-color: black;
+}
